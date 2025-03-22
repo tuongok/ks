@@ -43,9 +43,9 @@ function Layoutdf() {
                         <div className='text1'>Get social
                             <div className='desc'>Fllow us on social media and keep in touch with StayConnect.</div>
                         <Row className="iconn" gutter={[16, 16]}>
-                            <Col className="icon" span={8}><FacebookOutlined /> </Col>
-                            <Col className="icon" span={8}><InstagramOutlined />  </Col>
-                            <Col className="icon" span={8}> <TwitterOutlined /></Col>
+                            <Col className="icon " span={8}><FacebookOutlined /> </Col>
+                            <Col className="icon " span={8}><InstagramOutlined />  </Col>
+                            <Col className="icon " span={8}> <TwitterOutlined /></Col>
                         </Row>
                         </div>
                     </div>
