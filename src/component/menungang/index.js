@@ -2,11 +2,11 @@ import { Menu } from 'antd';
 import "./style.css"
 import { SettingOutlined, HomeOutlined } from "@ant-design/icons";
 import { Link } from 'react-router-dom';
-import LOGONEW from "../../img/logooooooooooooo.jpg";
+import LOGONEW from "../../img/logonewbe.jpg";
 function Menuu() {
   const items = [
     {
-      label:"HCM ** 25°C"
+      label:"HCM 25°C"
     },
     {
       label: <Link to="/">Home</Link>,
@@ -33,7 +33,7 @@ function Menuu() {
       ]
     },
     {
-      label: <Link to="/cart">Room</Link>,
+      label: <Link to="/room">Room</Link>,
       key: 'Room',
       children: [
         {
@@ -62,7 +62,7 @@ function Menuu() {
       key: 'Pages',
       children: [
         {
-          label: <Link to="/cart">About us</Link>
+          label: <Link to="/blog">About us</Link>
         },
         {
           label: "Promottion & Offers"
@@ -87,11 +87,11 @@ function Menuu() {
       
     },
     {
-      label: "Blog",
+      label: <Link to="/blog"> Blog</Link>,
       key: 'Blog',
       children: [
         {
-          label: <Link to="/cart">Right siderbar</Link>
+          label: <Link to="/blog">Right siderbar</Link>
         },
         {
           label: "Left siderbar"
@@ -103,10 +103,10 @@ function Menuu() {
           label: "Blog Single",
           children: [
             {
-              label: <Link to="/cart">No sidebar</Link>
+              label: <Link to="/blog">No sidebar</Link>
             },
             {
-              label: <Link to="/cart">Standard</Link>
+              label: <Link to="/blog">Standard</Link>
             },
             {
               label: "Gallery"
@@ -133,7 +133,7 @@ function Menuu() {
       
     },
     {
-      label: <Link to="/cart">StayConnect@gmail.com</Link>,
+      label: <Link to="/blog">StayConnect@gmail.com</Link>,
       key: 'email',}
   ]
   return (

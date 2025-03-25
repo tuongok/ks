@@ -4,7 +4,7 @@ import "./style.css"
 import banner11 from "../../img/banner11.jpg";
 import rules from "../../img/rule.jpg";
 import { Row, Col, Select } from 'antd';
-import { WifiOutlined, DiscordOutlined, CoffeeOutlined, DownCircleOutlined, ClockCircleOutlined, CustomerServiceOutlined, SafetyOutlined, ShoppingCartOutlined } from '@ant-design/icons';
+import { WifiOutlined, DiscordOutlined, CoffeeOutlined, DownCircleOutlined, ClockCircleOutlined, CustomerServiceOutlined, SafetyOutlined, ShoppingCartOutlined, MailOutlined } from '@ant-design/icons';
 import Sliderr2 from "../../component/slider2/slider2.js";
 import Select1 from "../../component/slect1/index.js";
 import Select2 from "../../component/select2/index.js";
@@ -86,6 +86,13 @@ function Home() {
                 </Col>
             </Row>
             <div className="slider2"><Sliderr2 /></div>
+            <Row justify="center" align="middle" gutter={[16, 16]} style={{ height: '100%' }}>
+                <Col span={24} >
+                    <div className="email"><MailOutlined />
+                    <span>Join our weekly Newsletter</span> <input placeholder="Enter your email"></input> <button>SIGN UP</button>
+                    </div>
+                </Col>
+            </Row>
         </div>
         </>
     )
